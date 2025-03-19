@@ -34,7 +34,6 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
@@ -46,7 +45,6 @@
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -56,70 +54,75 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.OldLace;
+            this.button1.ForeColor = System.Drawing.Color.Crimson;
             this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(239, 28);
             this.button1.TabIndex = 0;
             this.button1.Text = "Создать очередь";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.Snow;
+            this.button2.ForeColor = System.Drawing.Color.Crimson;
             this.button2.Location = new System.Drawing.Point(344, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(239, 28);
             this.button2.TabIndex = 1;
             this.button2.Text = "Очистить очередь";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(669, 12);
+            this.button3.BackColor = System.Drawing.Color.OldLace;
+            this.button3.ForeColor = System.Drawing.Color.Crimson;
+            this.button3.Location = new System.Drawing.Point(344, 56);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(239, 28);
             this.button3.TabIndex = 2;
             this.button3.Text = "Извлечь наибольший";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.OldLace;
+            this.button4.ForeColor = System.Drawing.Color.Crimson;
             this.button4.Location = new System.Drawing.Point(12, 52);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(239, 28);
             this.button4.TabIndex = 3;
             this.button4.Text = "Вставить новый";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(404, 52);
+            this.button5.BackColor = System.Drawing.Color.OldLace;
+            this.button5.ForeColor = System.Drawing.Color.BurlyWood;
+            this.button5.Location = new System.Drawing.Point(669, 12);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(239, 28);
             this.button5.TabIndex = 4;
             this.button5.Text = "Изменить приоритет";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(426, 589);
+            this.button6.BackColor = System.Drawing.Color.Crimson;
+            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button6.Location = new System.Drawing.Point(800, 521);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 28);
+            this.button6.Size = new System.Drawing.Size(85, 69);
             this.button6.TabIndex = 5;
             this.button6.Text = "Выход";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click_1);
-            // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(257, 56);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(82, 22);
-            this.numericUpDown1.TabIndex = 6;
             // 
             // numericUpDown2
             // 
@@ -158,7 +161,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(375, 182);
+            this.label3.Location = new System.Drawing.Point(375, 127);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(218, 16);
             this.label3.TabIndex = 11;
@@ -167,7 +170,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(375, 280);
+            this.label4.Location = new System.Drawing.Point(375, 198);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(208, 16);
             this.label4.TabIndex = 12;
@@ -176,7 +179,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(401, 489);
+            this.label5.Location = new System.Drawing.Point(401, 423);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(139, 16);
             this.label5.TabIndex = 13;
@@ -184,8 +187,9 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.DarkSalmon;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(53, 201);
+            this.dataGridView1.Location = new System.Drawing.Point(53, 146);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -194,8 +198,9 @@
             // 
             // dataGridView2
             // 
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.NavajoWhite;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(53, 299);
+            this.dataGridView2.Location = new System.Drawing.Point(53, 217);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
@@ -204,8 +209,9 @@
             // 
             // dataGridView3
             // 
+            this.dataGridView3.BackgroundColor = System.Drawing.Color.NavajoWhite;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(12, 508);
+            this.dataGridView3.Location = new System.Drawing.Point(12, 442);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.RowHeadersWidth = 51;
             this.dataGridView3.RowTemplate.Height = 24;
@@ -214,16 +220,20 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(280, 123);
+            this.textBox1.BackColor = System.Drawing.Color.LemonChiffon;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Location = new System.Drawing.Point(294, 389);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(386, 22);
+            this.textBox1.Size = new System.Drawing.Size(386, 15);
             this.textBox1.TabIndex = 17;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(920, 629);
+            this.BackColor = System.Drawing.Color.LemonChiffon;
+            this.ClientSize = new System.Drawing.Size(920, 601);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dataGridView3);
             this.Controls.Add(this.dataGridView2);
@@ -235,7 +245,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.numericUpDown3);
             this.Controls.Add(this.numericUpDown2);
-            this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -243,8 +252,8 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Мирошниченко ЛР 18";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.Text = "Тареева ЛР 18";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -263,7 +272,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
         private System.Windows.Forms.NumericUpDown numericUpDown3;
         private System.Windows.Forms.Label label1;
